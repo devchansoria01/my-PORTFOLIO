@@ -55,6 +55,8 @@ export const Navbar = () => {
                     ))}
                 </div>
 
+
+
                 {/* mobile nav  */}
 
                 <button onClick={() => setIsMenuOpen(prev => !prev)} 
