@@ -9,7 +9,7 @@ const skills = [
     { name: "Node.js", level: "Intermediate", category: "Backend" },
     { name: "Express.js", level: "Intermediate", category: "Backend" },
     { name: "MongoDB", level: "Intermediate", category: "Backend" },
-    { name: "SQL", level: "Intermediate", category: "Backend" },
+    { name: "mySQL", level: "Intermediate", category: "Backend" },
     { name: "GraphQL", level: "Beginner", category: "Backend" },
 
     { name: "Python", level: "Intermediate", category: "Machine Learning" },
@@ -21,9 +21,17 @@ const skills = [
     { name: "Git/Github", level: "Advanced", category: "Tools" },
     { name: "Docker", level: "Beginner", category: "Tools" },
     { name: "VS Code", level: "Advanced", category: "Tools" },
+    { name: "n8n", level: "Intermediate", category: "Tools" },
+
+    { name: "C++", level: "Intermediate", category: "Others" },
+    { name: "Data Structures", level: "Intermediate", category: "Others" },
+    { name: "Operating Systems", level: "Advanced", category: "Others" },
+    { name: "Computer Networks", level: "Intermediate", category: "Others" },
+    { name: "Database Management", level: "Advanced", category: "Others" },
+    { name: "Linux OS", level: "Intermediate", category: "Others" },
 ];
 
-const categories = ["All", "Frontend", "Backend", "Machine Learning", "Tools"];
+const categories = ["All", "Frontend", "Backend", "Machine Learning", "Tools", "Others"];
 
 // Helper to convert string levels to percentage numbers
 const getLevelPercentage = (level) => {
