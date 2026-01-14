@@ -22,7 +22,9 @@ export const AboutSection = () => {
                         </p>
 
                         <div className="flex flex-col sm:flex-row gap-4 pt-4 justify-center">
-                            <a href="https://www.linkedin.com/in/dev-chansoria-3781a4289/" className="cosmic-button">
+                            <a 
+                                target="_blank"
+                                href="https://www.linkedin.com/in/dev-chansoria-3781a4289/" className="cosmic-button">
                                 Get in Touch
                             </a>
 

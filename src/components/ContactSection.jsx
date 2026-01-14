@@ -95,10 +95,14 @@ const ContactSection = () => {
                         <div className='pt-8'>
                             <h4 className='font-medium mb-4'>Connect with me</h4>
                             <div className='flex space-x-4 justify-center'>
-                                <a href='https://www.linkedin.com/in/dev-chansoria-3781a4289/'>
+                                <a 
+                                    target="_blank"
+                                    href='https://www.linkedin.com/in/dev-chansoria-3781a4289/'>
                                     <Linkedin />
                                 </a>
-                                <a href='https://www.instagram.com/devchansoria2004/'>
+                                <a 
+                                    target="_blank"
+                                    href='https://www.instagram.com/devchansoria2004/'>
                                     <Instagram />
                                 </a>
                                 <a href='#'>
