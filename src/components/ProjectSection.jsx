@@ -24,7 +24,7 @@ const projects = [
         id: 3,
         title: "myChatBot : Gen ai Project",
         description: "Integrated API's for text and iamge generation to create a chatbot.",
-        image: "/projects/image.png",
+        image: "/projects/chatBot.png",
         tags: ["Python", "FASTAPI", "OpenAI"],
         projUrl: "https://mychatbot-c7zz.onrender.com/",
         githubUrl: "#"
