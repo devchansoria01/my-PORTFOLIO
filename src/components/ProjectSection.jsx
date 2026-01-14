@@ -4,29 +4,29 @@ import { ArrowRight, ExternalLink, Github } from "lucide-react"
 const projects = [
     {
         id: 1,
-        title: "Project One",
-        description: "Description for project one.",
+        title: "Magnet : Web-D project",
+        description: "All in one platform for NSUT students to access resources, compete, etc.",
         image: "/projects/project1.png",
-        tags: ["React", "Node.js"],
+        tags: ["React Js", "Node Js", "Python"],
         projUrl: "https://nsutmagnet.tech/",
         githubUrl: "#"
     },
     {
         id: 2,
-        title: "Project Two",
-        description: "Description for project two.",
-        image: "/projects/project1.png",
-        tags: ["Node.js", "Express"],
-        projUrl: "#",
-        githubUrl: "#"
+        title: "AQI prediction : ML Project",
+        description: "Predicted AQI using different ML models and compared their performances.",
+        image: "/projects/aqi.png",
+        tags: ["python", "transformers"],
+        projUrl: "https://aqi-prediction-dashboard.netlify.app/",
+        githubUrl: "https://github.com/devchansoria01/aqi-Prediction-dashboard/tree/main/Backend"
     },
     {
         id: 3,
-        title: "Project Three",
-        description: "Description for project three.",
-        image: "/projects/project1.png",
-        tags: ["Python", "Django"],
-        projUrl: "#",
+        title: "myChatBot : Gen ai Project",
+        description: "Integrated API's for text and iamge generation to create a chatbot.",
+        image: "/projects/image.png",
+        tags: ["Python", "FASTAPI", "OpenAI"],
+        projUrl: "https://mychatbot-c7zz.onrender.com/",
         githubUrl: "#"
     },
 
