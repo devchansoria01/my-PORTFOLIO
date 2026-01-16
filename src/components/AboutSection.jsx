@@ -30,7 +30,7 @@ export const AboutSection = () => {
 
                             <a 
                                 target="_blank"
-                                href="#https://drive.google.com/file/d/1_jcJaUtmTBD0UY26V8XhLtEhNlGjCI1L/view?usp=sharing" className="px-6 py-2 rounded-full border border-primary text-primary hover:bg-primary/10 transition-colors duration-300">
+                                href="https://drive.google.com/file/d/1_jcJaUtmTBD0UY26V8XhLtEhNlGjCI1L/view?usp=sharing" className="px-6 py-2 rounded-full border border-primary text-primary hover:bg-primary/10 transition-colors duration-300">
                                 Download Resume
                             </a>
                         </div>
